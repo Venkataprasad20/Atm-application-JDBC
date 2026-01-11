@@ -6,6 +6,7 @@ The application demonstrates how Java connects to a MySQL database using JDBC to
 
 This project focuses purely on backend logic and database connectivity, with no frontend/UI.
 
+
 🎯 Objective
 
 The main goal of this project is to understand:
@@ -18,6 +19,7 @@ How to perform CRUD operations using SQL
 
 How banking operations are handled at the backend level
 
+
 🛠️ Technologies Used
 
 Java
@@ -29,6 +31,7 @@ MySQL
 Eclipse IDE
 
 Git & GitHub
+
 
 🗄️ Database Connectivity (JDBC)
 
@@ -46,6 +49,7 @@ DriverManager is used to establish the connection.
 
 PreparedStatement is used to prevent SQL Injection.
 
+
 📋 Features
 
 ✔ Create a new bank account
@@ -55,6 +59,7 @@ PreparedStatement is used to prevent SQL Injection.
 ✔ PIN-based authentication
 ✔ Data stored permanently in MySQL
 
+
 🧾 Database Table Structure
 CREATE TABLE atm (
     acc_no INT PRIMARY KEY,
@@ -62,6 +67,7 @@ CREATE TABLE atm (
     pin INT,
     balance DOUBLE
 );
+
 
 ⚙️ How the Application Works
 
@@ -77,6 +83,7 @@ Results are fetched using ResultSet.
 
 Data is updated and stored securely in the database.
 
+
 🔐 Security Practices Used
 
 Prepared Statements (prevents SQL Injection)
@@ -84,6 +91,7 @@ Prepared Statements (prevents SQL Injection)
 Environment variables for database credentials
 
 PIN verification for sensitive operations
+
 
 🚀 How to Run the Project
 
@@ -97,6 +105,7 @@ Add MySQL Connector/J to the project
 
 Run the Java file from Eclipse or terminal
 
+
 📚 Learning Outcomes
 
 Hands-on experience with JDBC
@@ -106,6 +115,7 @@ Understanding backend banking logic
 Writing clean and secure SQL queries
 
 Real-time Java–Database interaction
+
 
 👨‍💻 Author
 
