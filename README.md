@@ -82,4 +82,4 @@ Real-time Java–Database interaction
 👨‍💻 Author
 
 Venkat Prasad
-Java & Backend Developer (Beginner Level Project)..
+(Beginner Level Project)
